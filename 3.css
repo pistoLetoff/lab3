@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+header {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-size: 24pt;
+    padding: 10px;
+    background: #ccff99;
+    box-shadow: 0 0 15px grey;
+}
+main {
+    margin: 10px;
+    flex: 1;
+}
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+/* button */
+#tree-btn {
+    background-color: #f4511e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 250px;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: padding 0.5s,
+                margin 0.5s,
+                opacity 0.3s;
+}
+
+#tree-btn:hover {
+    padding: 25px;
+    margin: 25px auto;
+    opacity: 1;
+}
+/* page tree */
+#tree-place {
+    text-align: left;
+    font-family: monospace;
+    font-size: 14pt;
+    color: #12f01a;
+    padding: 15px;
+    text-shadow: 0 0 7px #98FDA2
+}
+
+#tree-place > p {
+    margin: 0;
+}
+
+.tree-text {
+    display: inline;
+    font-size: 9pt;
+    color: #62e3c7;
+    }
+
+#tree-header {
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px 10px 0px;
+    font-size: 18pt;
+    color: #2AD832;
+    text-shadow: 0 0 7px #98FDA2
+}
+
+#container {
+    width: 50%;
+    margin: 0 25% 0;
+    background-color: black; 
+    border-radius: 20px; 
+    display: none;
+}
+/* whole page */
+.picture {
+    width: 30%;
+    margin: 0 35% 0;
+}
+
+.article {
+    padding: 10px
+}
